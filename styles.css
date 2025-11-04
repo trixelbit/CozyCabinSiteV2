@@ -1,0 +1,44 @@
+body
+{
+    color: #371b20;
+    background-image: url("bg.png");
+    background-repeat: repeat;
+}
+
+header
+{
+    height: 89px;
+    width: 640px;
+    background-image: url("Header.png");
+}
+
+main 
+{
+
+}
+
+#wood
+{
+    width: 480px;
+    margin: 0 auto;
+    border-width: 10px;
+    border-style: solid;
+    border-image: url("T_Border.png");
+    border-image-slice: 8 fill;
+    border-image-repeat: round;
+}
+
+
+#paper
+{
+    border-width: 10px;
+    border-style: solid;
+    border-image: url("T_Border2.png");
+    border-image-slice: 8 fill;
+    border-image-repeat: round;
+    z-index: 10;
+    
+}
+
+
+

@@ -36,8 +36,6 @@ main
     border-image: url("T_Border2.png");
     border-image-slice: 8 fill;
     border-image-repeat: round;
-    z-index: 10;
-    
 }
 
 

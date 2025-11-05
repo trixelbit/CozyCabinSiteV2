@@ -1,32 +1,56 @@
 body
 {
     color: #371b20;
+    background-color: #222034;
+    /*
     background-image: url("bg.png");
     background-repeat: repeat;
+    image-rendering: pixelated;
+     */
 }
 
 header
 {
-    height: 89px;
-    width: 640px;
-    background-image: url("Header.png");
 }
 
-main 
+#SiteHead
 {
-
+    color: #FFFFFF;
+    width: 50%;
+    margin: 0 auto;
 }
 
+#hole
+{
+    border-width: 24px;
+    border-style: solid;
+    border-image: url("Images/BorderHole.png");
+    border-image-slice: 12 fill;
+    border-image-repeat: round;
+    image-rendering: pixelated;
+}
 #wood
 {
     width: 480px;
     margin: 0 auto;
+    border-width: 24px;
+    border-style: solid;
+    border-image: url("Images/BorderSnow.png");
+    border-image-slice: 12 fill;
+    border-image-repeat: round;
+    image-rendering: pixelated;
+}
+
+a.button
+{
     border-width: 10px;
     border-style: solid;
-    border-image: url("T_Border.png");
+    border-image: url("T_Border2.png");
     border-image-slice: 8 fill;
     border-image-repeat: round;
+    image-rendering: pixelated;
 }
+
 
 
 #paper
@@ -36,6 +60,7 @@ main
     border-image: url("T_Border2.png");
     border-image-slice: 8 fill;
     border-image-repeat: round;
+    image-rendering: pixelated;
 }
 
 

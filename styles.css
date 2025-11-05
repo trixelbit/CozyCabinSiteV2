@@ -1,5 +1,22 @@
+@font-face
+{
+    font-family: "regular";
+    src: url("fonts/proggy.ttf");    
+}
+
+html
+{
+    padding: 0;
+    margin: 0;
+    image-rendering: pixelated;
+}
+
+
 body
 {
+    font-family: "regular";
+    padding: 0;
+    margin: 0;
     color: #371b20;
     background-color: #222034;
     /*
@@ -9,6 +26,7 @@ body
      */
 }
 
+
 header
 {
 }
@@ -16,8 +34,8 @@ header
 #SiteHead
 {
     color: #FFFFFF;
-    width: 50%;
     margin: 0 auto;
+    padding: 0;
 }
 
 #hole
@@ -41,7 +59,9 @@ header
     image-rendering: pixelated;
 }
 
-a.button
+
+
+#paper
 {
     border-width: 10px;
     border-style: solid;
@@ -51,9 +71,7 @@ a.button
     image-rendering: pixelated;
 }
 
-
-
-#paper
+a.button
 {
     border-width: 10px;
     border-style: solid;

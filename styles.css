@@ -3,6 +3,11 @@
     font-family: "regular";
     src: url("fonts/proggy.ttf");    
 }
+@font-face
+{
+    font-family: "header";
+    src: url("fonts/GrapeSoda.ttf");    
+}
 
 html
 {
@@ -31,6 +36,14 @@ header
 {
 }
 
+h1,h2,h3
+{
+    font-family: "header";
+    font-weight: normal;
+    margin: 0px;
+    padding: 0px;
+}
+
 #SiteHead
 {
     color: #FFFFFF;
@@ -38,14 +51,36 @@ header
     padding: 0;
 }
 
+#crt
+{
+    border-width: 13px;
+    border-style: solid;
+    border-image: url("Images/BorderCRT.png");
+    border-image-slice: 13 fill;
+    border-image-repeat: round;
+    image-rendering: pixelated;
+
+    color: white;
+}
+#osWindow
+{
+    /*top right bottom left*/
+    border-width: 32px 70px 32px 32px;
+    border-style: solid;
+    border-image: url("Images/OSWindow.png");
+    border-image-slice: 32 70 32 32 fill; 
+    border-image-repeat: round;
+    image-rendering: pixelated;
+}
 #hole
 {
     border-width: 24px;
     border-style: solid;
     border-image: url("Images/BorderHole.png");
-    border-image-slice: 12 fill;
+    border-image-slice: 24 fill;
     border-image-repeat: round;
     image-rendering: pixelated;
+    color: #d8c1a6;
 }
 #wood
 {
@@ -53,8 +88,8 @@ header
     margin: 0 auto;
     border-width: 24px;
     border-style: solid;
-    border-image: url("Images/BorderSnow.png");
-    border-image-slice: 12 fill;
+    border-image: url("Images/BorderWood.png");
+    border-image-slice: 24 fill;
     border-image-repeat: round;
     image-rendering: pixelated;
 }
@@ -63,7 +98,17 @@ header
 
 #paper
 {
-    border-width: 10px;
+    border-width: 16px;
+    border-style: solid;
+    border-image: url("T_Border2.png");
+    border-image-slice: 16 fill;
+    border-image-repeat: round;
+    image-rendering: pixelated;
+}
+
+a.button
+{
+    border-width: 8px;
     border-style: solid;
     border-image: url("T_Border2.png");
     border-image-slice: 8 fill;
@@ -71,14 +116,9 @@ header
     image-rendering: pixelated;
 }
 
-a.button
+a:hover
 {
-    border-width: 10px;
-    border-style: solid;
-    border-image: url("T_Border2.png");
-    border-image-slice: 8 fill;
-    border-image-repeat: round;
-    image-rendering: pixelated;
+    top: 10px
 }
 
 
